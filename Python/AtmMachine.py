@@ -47,7 +47,7 @@ class Atm:
             self.pin = new_pin
 
         else:
-            print('Tumse na ho payega')
+            print('Incorrect pin')
         self.menu()
     
     def check_balance(self):
@@ -55,7 +55,7 @@ class Atm:
         if user_pin == self.pin:
             print('your balance is ', self.balance)
         else:
-            print('Chal nikal dkbose')
+            print('Insufficient balance')
         self.menu()
 
     def withdraw(self):
