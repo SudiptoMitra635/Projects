@@ -27,7 +27,7 @@ class Atm:
             #withdraw
             self.withdraw()
         else:
-            exit()
+            self.menu()
     
     def create_pin(self):
         user_pin = input('Enter your pin: ')
